@@ -1,0 +1,10 @@
+buildscript {
+  repositories {
+	jcenter()
+  }
+  dependencies {
+    classpath 'com.blogspot.jvalentino.gradle:command-line:1.0.0'
+  }
+}
+
+apply plugin: 'command-line'
